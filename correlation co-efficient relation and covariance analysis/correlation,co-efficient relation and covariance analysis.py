@@ -5,6 +5,7 @@ import seaborn as sbs
 dataset=pd.read_csv('/content/student-mat.csv')
 
 dataset.head()
+
 dataset.info()
 
 dfn=dataset[['traveltime','studytime']]
